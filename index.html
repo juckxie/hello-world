@@ -14,6 +14,9 @@
 var src ='http://wz990.com/api/go_free_bt/'+ window.location.search.substring(1)+'/1?t='+  (+new Date());
 console.log(src);
   $.get(src, function(r){
+      console.log(333333333);
+      console.log(r);
+      console.log(4444444444444);
       window.location.href = r;
     },'JSON');
 </script>
